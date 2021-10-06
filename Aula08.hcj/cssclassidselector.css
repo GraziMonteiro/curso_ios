@@ -1,0 +1,21 @@
+.Titulo {
+    color: coral; text-align: center;
+}
+
+.cor_indicacao {
+    color: darkblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;
+}
+
+#texto {
+    font-family: Arial, Helvetica, sans-serif; font-style: italic;
+}
+
+* {
+        background-color: #cfcfb8;
+        font-weight: bold;
+}
+
+article p {
+    background-color: #992135;
+    color: white;
+   }
