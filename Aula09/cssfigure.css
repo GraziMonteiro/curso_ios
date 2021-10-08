@@ -1,0 +1,37 @@
+img {
+    alt: "Dc Comics";
+    width: 320px;
+    height: 240px;
+    }
+
+figure {
+    width: 320px ;
+    padding: 5px;
+    border: 2px solid blue;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cor_titulo {
+    text-align: center;
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+    background-color: antiquewhite;
+}
+
+.cor_subtitulo{
+    text-align: center;
+    color: brown;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+.cor_eras {
+    color: red;
+    font-weight: bolder;
+}

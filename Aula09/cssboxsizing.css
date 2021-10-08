@@ -1,0 +1,15 @@
+.titulo {
+    width: 500px;
+    height: 30px;
+    border: 3px solid blue;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.subtitulo {
+    width: 600px;
+    height: 400px;
+    border: 3px solid aqua;
+    text-align: justify;
+    margin-left: 300px;
+}

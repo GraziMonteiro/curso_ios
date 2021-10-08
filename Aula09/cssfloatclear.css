@@ -1,0 +1,30 @@
+img {
+    float: left;
+    width: 400px;
+    height: 340px;
+    margin: 10px;
+
+}
+
+.titulo {
+    float: none;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    clear: none;
+    text-align: justify;
+}
+
+.subtitulo {
+    float: both;
+    height: 50px;
+    margin: 10px;
+    clear: both;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
