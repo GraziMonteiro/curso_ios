@@ -1,0 +1,18 @@
+.titulo {
+    background-color: khaki;
+    color: black;
+    line-height: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px white ;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px dashed black
+    
+}
+
+.texto {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em; 
+}
+
