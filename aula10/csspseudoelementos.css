@@ -1,0 +1,50 @@
+.titulo {
+    box-sizing: border-box;
+    width: 100%;
+    margin:20px;
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+} 
+
+.década {
+    color: rgb(57, 175, 175);
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 30px;
+    float: both;
+    margin: 20px;
+}
+
+
+p::selection {
+ font-size: 20px;
+ font-weight: lighter;
+ color: tomato;
+ clear: both ;
+} 
+
+p::first-letter {
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+  }
+
+  @media (max-width:760px) {
+    .text{
+        width: 100%;
+        margin: 10px;
+    }
+}

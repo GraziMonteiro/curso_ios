@@ -1,0 +1,116 @@
+/************Pseudoclasses**************/
+
+.titulo {
+    box-sizing: border-box;
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+} 
+
+.década {
+    color: rgb(57, 175, 175);
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+p:first-child {
+ color: blue;
+}
+
+body{
+    margin-top: 50px;
+}
+
+.site_oficial {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+/*Quando o link não for visitado*/
+.site_oficial:link {
+     color: green;
+}
+
+/*Quando o link for visitado*/
+.site_oficial:visited {
+    color: rgb(243, 12, 12);
+}
+
+/*Quando passa o mouse por cima do link*/
+.site_oficial:hover {
+    color: black;
+}
+
+/*Quando clicar no link*/
+.site_oficial:active {
+    color: orangered;
+}
+
+p:first-child {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(134, 37, 37);
+    font-weight: bold;
+}
+
+h2:last-child {
+    border-bottom: 3px solid #000;
+}
+
+h3:first-of-type {
+    color: purple;
+    font-style:italic ;
+}
+
+/*Quando o link não for visitado*/
+.Opções_de_vídeo:link {
+    color: green;
+}
+
+/*Quando o link for visitado*/
+.Opções_de_vídeo:visited {
+   color: rgb(243, 12, 12);
+}
+
+/*Quando passa o mouse por cima do link*/
+.Opções_de_vídeo:hover {
+   color: black;
+}
+
+/*Quando clicar no link*/
+.Opções_de_vídeo:active {
+   color: palevioletred;
+}
+
+/*Quando o link não for visitado*/
+.Opções_de_personagens:link {
+    color: green;
+}
+
+/*Quando o link for visitado*/
+.Opções_de_personagens:visited {
+   color: rgb(243, 12, 12);
+}
+
+/*Quando passa o mouse por cima do link*/
+.Opções_de_personagens:hover {
+   color: black;
+}
+
+/*Quando foco*/
+.Opções_de_personagens:focus {
+   color: blue;
+}
+
+@media (max-width:760px) {
+    .text{
+        width: 100%;
+        margin: 10px;
+    }
+}

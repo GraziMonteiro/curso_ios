@@ -1,0 +1,28 @@
+.container div {
+    border: 1px #ccc solid;
+    padding: 10px;
+   }
+
+
+   .item-box-1 {
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+   }
+
+   .item-box-2 {
+    background-color: rosybrown;
+    width: 200px;
+    height: 150px;
+   }
+
+   .item-box-3 {
+    background-color: burlywood;
+    width: 200px;
+    height: 150px;
+   }
+
+   .container {
+       display: flex;
+       justify-content: space-evenly
+   }
