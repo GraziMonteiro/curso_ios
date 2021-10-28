@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> 
+    <title>Saúde Mental</title>
+</head>
+<body>
+    
+    <section class="container">    
+         <!-- Formulários -->     
+         <form action="#">       
+             <label class="form-label">O que é saúde mental?</label>       
+             <input type="text" class="form-control" placeholder="Adicione um comentário"> 
+
+             <label class="form-label">Você sabe controlar sua ansiedade? </label>       
+             <input type="text" class="form-control form-control-sm" placeholder="Adicione um comentário"> 
+
+             <label class="form-label">Depressão e Tristeza são a mesma coisa?</label>      
+             <input type="email" class="form-control form-control-lg" placeholder="Adicione um comentário">
+
+            <label>Deixe uma mensagem sobre saúde mental</label>       
+            <textarea class="form-control" placeholder="Adicione uma Mensagem"></textarea>       
+            <br>   
+            <hr> 
+
+            <label>No geral, como você avaliaria sua saúde mental?</label>       
+            <select name="" id="" class="form-control">         
+                <option value="Excelente">Excelente</option>         
+                <option value="Um pouco bom">Um pouco bom</option>         
+                <option value="Média">Média</option>         
+                <option value="Ruim">Ruim</option>
+                <option value="Não sei informar">Não sei informar</option>         
+            </select>       
+            <br>       
+            <hr>   
+            
+        <label for="exampleDataList" class="form-label">Cidade</label>       
+        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite uma cidade...">       
+            <datalist id="datalistOptions">         
+                <option value="Belo Horizonte"></option>         
+                <option value="São Paulo"></option>         
+                <option value="Santos"></option>         
+                <option value="Porto Alegre"></option>         
+                <option value="Recife"></option>         
+                <option value="Outra"></option>       
+            </datalist> 
+
+            <br>      
+            <hr>        
+            <label class="form-label">Enviar Arquivo</label>       
+            <input type="file">  
+
+            <br>       
+            <span class="form-text">Apenas arquivos png e jpg.</span>              
+            <br>       
+            <hr> 
+
+           <label for="exampleColorInput" class="form-label">Defina uma cor de como esta seu dia</label>       
+           <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#021BFC"         title="Escolha a sua Cor">        
+           <br>       
+           <hr> 
+
+           <button type="submit" class="btn-outline-secondary btn-lg">Enviar</button> 
+           <br>       
+           <hr>
+
+         </form>   
+        </section> 
+
+        <section  class="container">
+            <!--  Tabela  Primeiro  Exemplo  --> 
+            <table  class="table  table-striped"> 
+                <thead>    
+                    <h1>Saúde mental na quarentena</h1> 
+                    <br>    
+                    <tr>           
+                        <th scope="col">#</th>           
+                        <th scope="col">Ansiedade</th>           
+                        <th scope="col">Estresse traumático</th>           
+                        <th scope="col">Depressão</th>
+                        <th scope="col">Pensamento suicida</th>
+                        <th scope="col">Fator de risco</th>           
+                    </tr>   
+
+                </thead>       
+                <tbody>         
+                    <tr>           
+                        <th scope="row">Estudantes</th>           
+                        <td>28%</td>           
+                        <td>22%</td>           
+                        <td>16%</td>  
+                        <td>11%</td> 
+                        <td>43%</td>       
+                    </tr>         
+                    <tr>           
+                        <th scope="row">Adultos</th>           
+                        <td>40%</td>           
+                        <td>60%</td>           
+                        <td>86%</td>
+                        <td>14%</td>    
+                        <td>19%</td>             
+                    </tr>                
+                </tbody>     
+            </table>      
+            <br>     
+            <hr>   
+
+              <!-- Tabela Segundo Exemplo -->     
+              <table class="table table-bordered table-hover table-sm">       
+                  <caption>Mentes Fragilizadas na pandemia </caption>       
+                  <thead>         
+                      <tr>           
+                          <th scope="col">Porcentagem</th>           
+                          <th scope="col">Motivo</th>         
+                        </tr>       
+                    </thead>       
+                    
+                    <tbody>         
+                        <tr class="table-primary">           
+                            <td>80,2%</td>           
+                            <td>Saúde mental abalada por causa da pandemia</td>         
+                        </tr>  
+
+                        <tr class="table-success">           
+                            <td>96,6%</td>           
+                            <td>Conhecem pessoas com suspeita ou diagnóstica com covid</td>         
+                        </tr>         
+                        
+                        <tr class="table-danger">           
+                            <td>87,6%</td>           
+                            <td>Tem medo de se infectar </td>         
+                        </tr> 
+
+                        <tr  class="table-warning"> 
+                            <td>67,8%</td> 
+                            <td>Afirmam sofrer com estresse ou ansiedade</td> 
+                        </tr> 
+                    </tbody> 
+                </table> 
+                <br> 
+                <hr>
+        </section> 
+
+            <!--  Exemplo  de  Listas  com  a  classe  List  Group  --> 
+            <section  class="container"> 
+                <!--  Lista  básica  --> 
+                <ul  class="list-group"> 
+                    <li  class="list-group-item  active"  aria-current="true">Item  Um</li> 
+                    <li  class="list-group-item">Item  Dois</li> 
+                    <li  class="list-group-item">Item  Três</li> 
+                    <li  class="list-group-item  disabled"  aria-disabled="true">Item  Quatro</li> 
+                </ul> 
+        <br> 
+        <hr> 
+
+        <!--  Lista  com  links  --> 
+                <div  class="list-group"> 
+                    <a  href="#"  class="list-group-item  list-group-item-action  active"  ariacurrent="true"> Link  atual </a>
+                     <a  href="#"  class="list-group-item  list-group-item-action">Segundo  link</a>
+                      <a  href="#"  class="list-group-item  list-group-item-action">Terceiro  link</a> <a  href="#"  class="list-group-item  list-group-item-action">Quarto  link</a>
+                </div> 
+
+        <br> 
+        <hr> 
+         <!--  Lista  com  botões  -->
+                <div  class="list-group"> 
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true"> Botão atual </button>      
+                    <button type="button" class="list-group-item list-group-item-action">Segundo botão
+                    </button>       
+                    <button type="button" class="list-group-item list-group-item-action">Terceiro botão</button>       
+                    <button type="button" class="list-group-item list-group-item-action">Quarto botão</button>    
+                </div>  
+        <br> 
+         <hr> 
+
+         <!-- Lista com efeito flush -->    
+            <ul class="list-group list-group-flush">       
+              <li class="list-group-item">Item Um</li>       
+              <li class="list-group-item">Item Dois</li>       
+              <li class="list-group-item">Item três</li>       
+              <li class="list-group-item">Item Quarto</li>     
+            </ul> 
+
+        <br> 
+        <hr> 
+
+        <!--  Lista  numerada  -->
+            <ol  class="list-group  list-group-numbered"> 
+                <li  class="list-group-item">Janeiro</li> 
+                <li  class="list-group-item">Fevereiro</li> 
+                <li  class="list-group-item">Março</li> 
+            </ol> 
+
+        <br> 
+        <hr> 
+
+        <!-- Lista colorida -->    
+             <ul class="list-group">       
+                 <li class="list-group-item">Item com estilo padrão na lista</li>       
+                 <li class="list-group-item list-group-item-primary">Item com estilo primary na lista</li>       
+                 <li class="list-group-item list-group-item-secondary">Item com estilo secondary na lista</li>       
+                 <li class="list-group-item list-group-item-success">Item com estilo success na lista</li>       
+                 <li class="list-group-item list-group-item-danger">Item com estilo danger na lista</li>       
+                 <li class="list-group-item list-group-item-warning">Item com estilo warning na lista</li>       
+                 <li class="list-group-item list-group-item-info">Item com estilo info na lista</li>       
+                 <li class="list-group-item list-group-item-light">Item com estilo light na lista</li>       
+                 <li class="list-group-item list-group-item-dark">Item com estilo dark na lista</li>   
+             </ul> 
+        <br> 
+        <hr> 
+        </section> 
+
+        <!--  Cards  --> 
+        <section  class="container"> 
+            <div  class="card"  style="width:  18rem;"> 
+                <img  src="./img/saude mental.png"  class="card-img-top"  alt="..."> 
+                <div  class="card-body"> 
+                    <h5  class="card-title">Saúde Mental</h5>
+                     <p  class="card-text">A saúde mental é um importante fator que possibilita o ajuste necessário para lidar com as emoções positivas e negativas. Investir em estratégias que possibilitem o equilíbrio das funções mentais é essencial para um convívio social mais saudável.</p> <a  href="#"  class="btn  btn-dark">Saiba  Mais</a> 
+                    </div> 
+                </div>
+         <br> 
+         <hr> 
+
+         <!--  Cards  com  listas  exemplo  01  --> 
+            <div  class="card"  style="width:  18rem;"> 
+                <ul  class="list-group  list-group-flush"> 
+                    <li  class="list-group-item">Um  item</li> 
+                    <li  class="list-group-item">Um  segundo  item</li> 
+                    <li  class="list-group-item">Um  terceiro  item</li> 
+                </ul> 
+            </div> 
+        <br> 
+        <hr> 
+
+        <!--  Cards  com  listas  exemplo  02  --> 
+            <div  class="card"  style="width:  18rem;"> 
+                <h5  class="card-header">Cabeçalho  Exemplo  02</h5> 
+
+                <ul  class="list-group  list-group-flush"> 
+                    <li  class="list-group-item">Um  item</li> 
+                    <li  class="list-group-item">Um  segundo  item</li> 
+                    <li  class="list-group-item">Um  terceiro  item</li> 
+                </ul> 
+            </div> 
+        <br> 
+        <hr>
+        
+        <!--  Card  com  diversos  elementos-->
+             <div  class="card"  style="width:  18rem;"> 
+                <img  src="./img/problemas mentais.png"  class="card-img-top"  alt="..."> 
+                <div  class="card-body"> 
+                    <h5  class="card-title"Problemas Mentais></h5> 
+                    
+                    <p  class="cardtext">Problemas de saúde mental mais frequentes</p> 
+                </div> <ul  class="list-group  list-group-flush"> 
+                    <li  class="list-group-item">Ansiedade</li> 
+                    <li  class="list-group-item">Mal-estar psicológico ou stress continuado</li> 
+                    <li  class="list-group-item">Depressão</li> 
+                </ul> 
+
+                <div  class="card-body"> 
+                    <a  href="#"  class="card-link">Um  link  do  Card</a> 
+                    <a  href="#"  class="card-link">Outro  link</a> 
+                </div> 
+            </div> 
+            <br> 
+            <hr> 
+            </section>
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"     crossorigin="anonymous"></script> 
+</body>
+</html>
