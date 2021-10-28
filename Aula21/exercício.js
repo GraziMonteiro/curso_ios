@@ -10,3 +10,5 @@ alert(`${nome} tem o peso de ${peso} e a altura ${altura}, então seu ${IMC}`);
 
 }
 
+
+  
