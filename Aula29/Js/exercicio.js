@@ -10,7 +10,7 @@ function alertmes(){
         h3.style.borderBottom = 'solid 2px #000';
         h3.style.color = '#ffffff';
 
-    } else if(mes = 'Abril', mes = 'Maio', mes = 'Junho'){ //PRIMAVERA
+    } else if(mes = 'Abril',  'Maio',  'Junho'){ //PRIMAVERA
         h3.innerHTML = `O mês é ${mes}. Portanto a estação do ano é Inverno`;
         h3.style.background = '#49C526';
         h3.style.borderBottom = 'solid 2px #000';
