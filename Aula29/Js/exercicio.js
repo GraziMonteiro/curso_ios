@@ -8,10 +8,13 @@ function alertmes(){
         h3.innerHTML = `O mês é ${mes}. Portanto a estação do ano é Inverno`;
         h3.style.background = '#fcba03';
         h3.style.borderBottom = 'solid 2px #000';
-
     } else if(mes == 'Abril', 'Maio', 'Junho'){ //PRIMAVERA
         h3.innerHTML = `O mês é ${mes}. Portanto a estação do ano é Primavera`;
         h3.style.background = '#fcba03';
+
+    } else if(mes = 'Abril',  'Maio',  'Junho'){ //PRIMAVERA
+        h3.innerHTML = `O mês é ${mes}. Portanto a estação do ano é Inverno`;
+        h3.style.background = '#49C526';
         h3.style.borderBottom = 'solid 2px #000';
 
     }else if(mes == 'Julho', 'Agosto', 'Setembro'){ //VERÂO 

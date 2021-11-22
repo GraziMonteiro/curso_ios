@@ -11,7 +11,7 @@ class contaBancaria {
     }
 
     contaPoupança(){
-        return this.salario * 0.015;
+        return this.salario * 0.015 ;
     }
 
     contaCorrente(){
@@ -30,7 +30,7 @@ class contaBancaria {
 let aluna = new contaBancaria('Isabela', '20', 1500, 'Feminino', 'Banco Pipoca','013', 'contaEstudante');
 
 console.log(aluna);
-console.log(`O Novo Salário é: ${aluna.descontoConta()} reais`);
+console.log(`O Novo Salário é:  ${aluna.descontoConta()} reais`);
 
 
 
