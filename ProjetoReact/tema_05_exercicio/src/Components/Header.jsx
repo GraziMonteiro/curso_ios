@@ -12,9 +12,13 @@
 	    };  
 	    return (  
 	        <header className="header">  
-	            <h1> E a frase do {title}</h1>  
-            <Button bgColor="red" text="Clique" onClick={onClick} />  
+			<div>
+				<h1> E a frase do {title}</h1>  
+				<Button bgColor="red" text="Clique" onClick={onClick} />  
+			</div> 
 	        </header>  
+
+			
     );  
 	};  
 	  
