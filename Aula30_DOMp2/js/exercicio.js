@@ -1,5 +1,5 @@
 const items = document.querySelectorAll('.item');
-const ulItems = document.querySelector('.items');
+const ulItems = document.querySelector('#items');
 const valores = document.querySelectorAll('.valor');
 const span = document.querySelectorAll('span');
 
@@ -10,31 +10,33 @@ function promoçaododia(){
     let elementoP = document.createElement('p');
             elementoP.innerHTML = 'Promoção do dia';
 
-    if(diaPromocao == 1){
-        calDesconto(valores, 0, descontoPorcentagem)
-        items[0].appendChild(elementoP)
-        return
-    }
-    if(diaPromocao == 2){
-        calDesconto(valores, 0, descontoPorcentagem)
-       items[1].appendChild(elementoP)
-        return
+    for{
+        if(diaPromocao == 1){
+            calDesconto(valores * descontoPorcentagem)
+            items[0].appendChild(elementoP)
+            return
+        }
+        else if(diaPromocao == 2){
+            calDesconto(valores, 0, descontoPorcentagem)
+        items[1].appendChild(elementoP)
+            return
 
-    }
-    if(diaPromocao == 3){
-        calDesconto(valores, 0, descontoPorcentagem)
-        items[2].appendChild(elementoP)
-        return
-    }
-    if(diaPromocao == 4){
-        calDesconto(valores, 0, descontoPorcentagem)
-        items[3].appendChild(elementoP)
-        return
-    }
-    if(diaPromocao == 5){
-        calDesconto(valores, 0, descontoPorcentagem)
-        items[4].appendChild(elementoP)
-        return
+        }
+        else if(diaPromocao == 3){
+            calDesconto(valores, 0, descontoPorcentagem)
+            items[2].appendChild(elementoP)
+            return
+        }
+        else if(diaPromocao == 4){
+            calDesconto(valores, 0, descontoPorcentagem)
+            items[3].appendChild(elementoP)
+            return
+        }
+        else(diaPromocao == 5){
+            calDesconto(valores, 0, descontoPorcentagem)
+            items[4].appendChild(elementoP)
+            return
+        }
     }
 }
 
