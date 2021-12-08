@@ -5,7 +5,7 @@ public class ExpressõesJava {
             int b2 = 3 ^ 30;
             int c3 = 20 % 4;
             int d4 = 9;
-            int e5 = 5 % 22;
+            double e5 = 5 % 22;
             int f6 = 3;
             char a = 'a';
 
