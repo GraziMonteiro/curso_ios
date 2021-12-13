@@ -15,7 +15,7 @@ function promoçaododia(){
             calDesconto(valores * descontoPorcentagem)
             items[0].appendChild(elementoP)
             return
-        }
+        } 
         else if(diaPromocao == 2){
             calDesconto(valores, 0, descontoPorcentagem)
         items[1].appendChild(elementoP)
