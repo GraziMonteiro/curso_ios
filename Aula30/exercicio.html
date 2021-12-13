@@ -17,18 +17,28 @@
             <h1>Formulário</h1>
             <div class="msg"></div>
 
+            <!--Campo de Nome-->
             <div>
                 <label for="name">Nome:</label>
                 <input type="text" id="name" />
             </div>
 
+            <!--Campo de Item
+            <div>
+                <label for="item">Item</label>
+                <input type="text" name="item" id="item"> <br>
+            </div>-->
+            
+
+            <!--Campo de Data de Nascimento-->
             <div class="aniver">
                 <label for="date">Data de Nascimento</label>
                 <input type="date" id="date" />
             </div class="msg_date">
             
             </select>
-                <input class="btn" type="submit" value="Enviar" />
+                <input class="btn" type="submit" value="Inserir" onclick="onSubmit(e)" />
+                <!--<input class="btn" type="submit" value="Excluir" onclick="excluir()" />-->
         </form>
             
                 <ul id="users"></ul>

@@ -10,8 +10,7 @@ const date = document.querySelector('#date');
 const msg = document.querySelector('.msg');
 const msg_date = document.querySelector('.msg_date');
 const userList = document.querySelector('#users');
-const emailInput = document.querySelector('#email');
-const msg_email = document.querySelector('.msg_email');
+const itens = document.getElementById('item');
 
 // Método addEventListener
 myForm.addEventListener('submit', onSubmit);
@@ -25,51 +24,51 @@ function onSubmit(e) {
 
     // console.log(nameInput.value);
     if (nameInput.value === '' || date.value === '') {
-        // alert('Por favor, preencha os dados.');
+         alert('Por favor, preencha os dados.');
         msg.classList.add('error');
         msg.innerHTML = ' Preencha os dados.';
         setTimeout(() => (msg.innerHTML = '') /*msg.remove()*/, 3000);
 
-
-
     } else if ((ano - tempo) < 18){
-        // console.log('sucess');
-        date.classList.add('error');
-        date.innerHTML = 'Usuário menor de idade';
-        setTimeout(() => (date.innerHTML = '') /*msg.remove()*/, 3000);
-
+        alert('Usuário menor de idade');
+         
     } else {
-        // console.log('sucess');
+         console.log('sucess');
         const li = document.createElement('li');
         li.appendChild(
             document.createTextNode(
-                `${nameInput.value} : ${date.value}: ${emailInput.value}`
+                `${nameInput.value} : ${date.value}`
             )
         );
         userList.appendChild(li);
 
-        //create span
-        const Span = document.createElementNS('span');
-        Span.innerHTML = 'y'
-        li.appendChild(Span);
+        const mySpan = document.createElement('span');
+        mySpan.innerHTML = 'x'
+        li.appendChild(mySpan);
+        
+        //Botão deletar
+        const close = document.querySelectorAll('span');
+            for(let i=0; i < close.length; i++){
+                close[i].addEventListener('click', () =>{
+                    close[i].parentElement.style.opacity = 0;
+                    
+                    setTimeout(() =>{
+                        close[i].parentElement.style.display = 'none';
+                        close[i].parentElement.remove();
+        
+                    }, 500);
+                });
+            }
+             //Limpar o formulário
+                nameInput.value = '';
+                date.value = '';
+                date.getElementsByTagName('li')[0].selected = 'selected';
+                nameInput.focus(); //Coloca o foco no elmento
 
-        //Botão de delete
-        const Excluir = document.querySelectorAll('span');
-         for(let i=0; i < Excluir.length; i++){
-             Excluir[i].addEventListener('click', () =>{
-                 Excluir[i].parentElement.style.opacity = 0;
-
-                 setTimeout(() =>{
-                     Excluir[i].parentElement.style.display = 'none';
-                     Excluir[i].parentElement.remove();
-                 }, 500);
-
-             });
-         }
-         //Limpar Formulário
-         nameInput.value = '';
-         date.value = '';
-         date.getElementsByTagName('li')[0].selected = 'selected';
-         nameInput.focus();
     }
 }
+
+/*function excluir(){
+    itens.parentNode.removeChild(itens);
+    return false
+}*/

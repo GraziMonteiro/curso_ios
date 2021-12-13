@@ -48,16 +48,6 @@ header {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-.btn2 {
-    display: block;
-    width: 100%;
-    padding: 10px 15px;
-    border: 0;
-    background: rgb(15, 196, 75);
-    color: #fff;
-    border-radius: 5px;
-    margin: 5px 0;
-}
 
 .btn {
     display: block;
@@ -81,4 +71,9 @@ header {
     font-size: 0.8rem;
     background: #fff;
     color: red;
+}
+
+.aniver{
+    display: block;
+    
 }
